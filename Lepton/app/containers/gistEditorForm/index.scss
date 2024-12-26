@@ -1,0 +1,143 @@
+.gist-editor-form {
+
+  .font-style-base {
+    font-family: -apple-system, BlinkMacSystemFont, Segoe WPC, Segoe UI, Ubuntu, Droid Sans, sans-serif;
+    font-size: 14px;
+    color: var(--text-primary);
+  }
+
+  .font-style-blue {
+    @extend .font-style-base;
+    color: #4078C0 !important;
+  }
+
+  .gist-editor-control-button {
+    margin: 5px;
+    float: right;
+  }
+
+  .gist-editor-new-gist-button {
+    margin: 5px 0px;
+  }
+
+  .gist-editor-section {
+    margin: 5px 5px;
+  }
+
+  .gist-editor-name {
+    display: flex;
+    align-items: center;
+    padding-right: 15px;
+  }
+
+  .gist-editor-section .panel-body {
+    padding: 0px !important;
+  }
+
+  .gist-editor-section .panel-heading {
+    padding: 2px 5px !important;
+    color: inherit;
+    border-color: var(--border-color);
+    background-color: var(--bg-secondary);
+  }
+
+  .gist-editor-input-area {
+    @extend .font-style-base;
+    flex: 1 1 95%;
+    padding: 5px 10px;
+    border: solid 1px;
+    border-color: var(--border-color);
+    border-radius: 3px;
+    margin-right: 10px;
+    background: var(--bg-primary);
+  }
+
+  .gist-editor-filename-area {
+    @extend .font-style-base;
+    width: 80%;
+    margin: 5px 20px 5px 0px;
+    padding: 5px 10px;
+    border: solid  1px;
+    border-color: var(--border-color);
+    border-radius: 3px;
+    background: var(--bg-primary);
+  }
+
+  .panel {
+    border-color: var(--border-color);
+    border-radius: 0;
+  }
+
+  .gist-editor-content-area {
+    @extend .font-style-base;
+    width: 100%;
+    padding: 5px;
+    min-height: 300px;
+    border: 0px;
+    resize: none;
+  }
+
+  .gist-editor-gist-file {
+    border: 0px;
+    padding: 10px 0px !important;
+    background: var(--text-bg-primary);
+  }
+
+  .control-button-group {
+    height: 45px;
+  }
+
+  .gist-editor-customized-tag {
+    @extend .font-style-blue;
+    margin-left: 5px;
+  }
+
+  .gist-editor-customized-tag-hidden {
+    @extend .gist-editor-customized-tag;
+    visibility: hidden;
+  }
+
+  .gist-editor-privacy-checkbox {
+    @extend .font-style-base;
+    display: inline;
+    float: right;
+  }
+
+  .title-input-field {
+    display: inline;
+  }
+
+  .error-msg {
+    @extend .font-style-base;
+    font-size: 12px;
+    font-weight: bold;
+    color: #B0580E;
+  }
+
+  .tips {
+    @extend .font-style-base;
+    font-size: 13px;
+    font-style: italic;
+    flex: 0 0 auto;
+    position: relative;
+
+    & > span {
+      vertical-align: middle;
+    }
+  }
+
+  .tips-icon {
+    height: 24px;
+    width: 24px;
+    display: inline-block;
+    vertical-align: middle;
+    fill: currentColor;
+  }
+
+  hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1;
+    border-top: 1px solid var(--border-color);
+  }
+}

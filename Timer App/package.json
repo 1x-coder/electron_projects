@@ -1,0 +1,20 @@
+{
+  "name": "Debate-Timer",
+  "version": "1.0.0",
+  "description": "A simple countdown timer for debate competition",
+  "main": "main.js",
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "pretty-bytes": "^2.0.1"
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.3.1",
+    "electron-packager": "^12.1.1",
+    "electron-prebuilt": "^0.35.2"
+  },
+  "scripts": {
+    "start": "electron main.js"
+  },
+  "author": "TharinduRE",
+  "license": "MIT"
+}

@@ -1,0 +1,116 @@
+.about-modal {
+
+  .font-style-base {
+    font-family: Consolas, Menlo, Monaco, "Courier New", monospace;
+    font-size: 13px;
+    color: var(--text-secondary);
+  }
+
+  .section-base {
+    height: 80vh;
+  }
+
+  .general-section {
+    @extend .section-base;
+  }
+
+  .about-section {
+    @extend .section-base;
+    display: flex;
+    flex-direction: column;
+    color: var(--text-secondary);
+  }
+
+  .logo-section {
+    @extend .font-style-base;
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .logo {
+    width: 100px;
+    margin: 5px;
+  }
+
+  .contributor-section {
+    overflow: auto;
+    min-height: 150px;
+    border-radius: 5px;
+    padding: 0 20px;
+    border: solid 1px var(--border-color);
+    color: var(--text-secondary);
+  }
+
+  .license-section {
+    overflow: auto;
+    flex: auto;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    padding: 0 20px;
+    border: solid 1px var(--border-color);
+    color: var(--text-secondary);
+  }
+
+  .one-line-section {
+    overflow: auto;
+    min-height: 30px;
+    border-radius: 5px;
+    padding: 4px 10px 0px 10px;
+    white-space: nowrap;
+    border: solid 1px var(--border-color);
+    color: var(--text-secondary);
+  }
+
+  .license-item {
+    margin: 10px 0px;
+  }
+
+  .license-project {
+    @extend .font-style-base;
+    font-weight: bold;
+  }
+
+  .license-type {
+    @extend .font-style-base;
+    font-size: 11px;
+  }
+
+  .setting-title {
+    @extend .font-style-base;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+  }
+  .setting-title-clickable {
+    @extend .setting-title;
+  }
+  .setting-title-clickable:hover {
+    cursor: pointer;
+  }
+
+  .modal-sm {
+    width: 375px;
+  }
+
+  .logo-sub {
+    margin: 0 5px;
+  }
+
+  .contributor {
+    @extend .font-style-base;
+    margin: 5px;
+  }
+
+  hr {
+    margin-bottom: 5px;
+  }
+
+  /* Settings only affecting the about modal */
+  .modal {
+    -webkit-app-region: drag;
+    background: rgba(0, 0, 0, 0.5);
+  }
+}

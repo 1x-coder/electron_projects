@@ -1,0 +1,101 @@
+.app-container {
+  margin: 0px;
+  max-height: 100vh;
+}
+
+.app-container {
+  .font-style-base {
+    font-family: Consolas, Menlo, Monaco, "Courier New", monospace;
+    font-size: 13px;
+  }
+
+  .bar-button {
+    width: 100px;
+  }
+
+  .customized-button {
+    @extend .font-style-base;
+    float: right;
+    margin: 5px 5px 0px 10px;
+  }
+
+  .customized-button:hover {
+    cursor: pointer;
+  }
+
+  .SplitPane {
+    position: relative !important;
+  }
+
+  .alert {
+    margin-bottom: 0px;
+  }
+}
+
+/*For the 'x' close button at top-right corner of the modal*/
+div > div.modal-header > button > span:nth-child(1) {
+  color: var(--modal-close-button);
+}
+div > div.modal-header > button {
+  color: var(--modal-close-button);
+}
+/**/
+
+/*For the resizer handle*/
+.Resizer {
+  background: #000;
+  opacity: .2;
+  z-index: 1;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding;
+  background-clip: padding-box;
+}
+
+ .Resizer:hover {
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+ .Resizer.horizontal {
+  height: 11px;
+  margin: -2px 0;
+  border-top: 2px solid rgba(0, 0, 0, 0);
+  border-bottom: 2px solid rgba(0, 0, 0, 0);
+  cursor: row-resize;
+  width: 100%;
+}
+
+.Resizer.horizontal:hover {
+  border-top: 2px solid rgba(0, 0, 0, 0.0);
+  border-bottom: 2px solid rgba(0, 0, 0, 0.0);
+}
+
+.Resizer.vertical {
+  width: 2px;
+  margin: 0 -2px;
+  border-left: 2px solid rgba(0, 0, 0, 0);
+  border-right: 2px solid rgba(0, 0, 0, 0);
+  cursor: col-resize;
+}
+
+.Resizer.vertical:hover {
+    border-left: 2px solid rgba(0, 0, 0, 0.0);
+    border-right: 2px solid rgba(0, 0, 0, 0.0);
+}
+
+.Resizer.disabled {
+  cursor: not-allowed;
+}
+
+.Resizer.disabled:hover {
+  border-color: transparent;
+}
+
+.btn-default {
+  color: var(--text-primary);
+  background-color: transparent;
+  border-color: #ccc;
+}

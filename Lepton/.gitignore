@@ -1,0 +1,11 @@
+node_modules
+bundle
+dist
+.DS_Store
+configs/account.js
+npm-debug.log
+test
+screenshots
+*backup*
+.idea
+.vscode

@@ -1,0 +1,151 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Debate Timer</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <script>window.$ = window.jQuery = require('./js/jquery-3.3.1.min.js');</script>
+  <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>-->
+  <script src="./js/bootstrap.min.js"></script>
+  <script src="./js/jquery.countdown.min.js"></script>
+  <script src="js/howler.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">  
+  <link rel="stylesheet" href="./css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+
+<div class="container">
+  <div class="starter-template">
+    <img src="img/header-01.png" class="img-fluid" alt="Responsive image"/>
+    <div>
+      <div  text-align="center">
+        <h1 class="clockface" id="clock"></h1>
+      </div>
+    </div>
+	<div class="card shadow-m flex-row justify-content-center">
+		<div class="card-body">
+		<button type="button" id="btn-start" class="btn btn-primary">
+		  <i class="fas fa-play"></i>
+		 Start
+		</button>
+
+		<button type="button" class="btn btn-secondary" id="btn-reset">
+		  <i class="fas fa-redo"></i>
+		  Reset
+		</button>
+
+		<button type="button" class="btn btn-secondary" id="btn-sound">
+		  <i class="fas fa-bell"></i>
+		  Sound
+		</button>
+
+		<div class="btn-group btn-group-toggle" data-toggle="buttons">
+		  <label class="btn btn-secondary active" id="btn-fourmins">
+			<input type="radio" name="duration" id="option1" autocomplete="off" value="4">
+			4 Minutes
+		  </label>
+
+		  <label class="btn btn-secondary" id="btn-fivemins">
+			<input type="radio" name="duration" id="option2" value="5" autocomplete="off" >
+			5 Minutes
+		  </label>
+		</div>
+		</div>
+	</div>
+	
+  </div>
+</div>
+
+<script type="text/javascript">
+
+  var $clock = $('#clock');
+  
+  //var $duration = $('input:radio[name=duration]:checked');
+  
+	$( document ).ready(function() {
+      $('#clock').text("04:00");
+	  $('input:radio[id="option1"]').prop("checked", true);
+	});
+
+	$('input:radio[name="duration"]').click(function(){
+		$(this).button('toggle');
+	});
+
+	$('input:radio[name="duration"]').change(function() {
+
+      var duration = $('input:radio[name=duration]:checked').val();
+      
+      if(duration == 4){
+       $('#clock').text('04:00');
+      }
+      if(duration == 5){
+       $('#clock').text('05:00');
+      }
+ });
+  
+	var sound = new Howl({
+		  src: ['sound/DeskBellSound.mp3','sound/DeskBellSound.wav']
+		});
+	function soundplay(){
+		    sound.play();		
+	}
+		
+  function updateSound(d){
+    return function SoundPlayback(){
+      var time = $('#clock').text();
+      if( d == 4 && time == "00:30" ){
+        soundplay();
+      }
+      if( d == 5 && time == "01:00"){
+        soundplay();
+      } 
+    }
+  }
+  function getfourminutes() {
+		return new Date(new Date().valueOf() +   4 * 60* 1000);
+	  }
+	function getfiveminutes() {
+		return new Date(new Date().valueOf() +   5 * 60 * 1000);
+  }
+    
+	function starttimer(d){
+    if (d == 4){
+      $clock.countdown(getfourminutes(), function(event) {
+      
+      $(this).html(event.strftime('%M:%S'));
+      
+      }).on('finish.countdown',soundplay).on('update.countdown',updateSound(d));
+    }
+    else if(d == 5){
+      $clock.countdown(getfiveminutes(), function(event) {
+      
+      $(this).html(event.strftime('%M:%S'));
+      
+      }).on('finish.countdown',soundplay).on('update.countdown',updateSound(d));
+    }
+	}
+  
+  $('#btn-start').click(function () {
+      var duration = $('input:radio[name=duration]:checked').val();
+      //console.log(duration);
+      starttimer(duration);
+      sound.play();	
+  });
+
+  $('#btn-reset').click(function() {
+    location.reload();
+	});
+	
+	$('#btn-sound').click(function (){
+		soundplay();
+	});
+
+
+</script>
+
+</body>
+</html>

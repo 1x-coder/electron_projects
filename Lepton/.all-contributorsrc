@@ -1,0 +1,313 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "hackjutsu",
+      "name": "CosmoX",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/7756581?v=4",
+      "profile": "https://airbnb.io/",
+      "contributions": [
+        "code",
+        "design",
+        "test",
+        "maintenance",
+        "platform",
+        "ideas"
+      ]
+    },
+    {
+      "login": "wujysh",
+      "name": "Jiaye Wu",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/5550402?v=4",
+      "profile": "https://loveac.cn",
+      "contributions": [
+        "code",
+        "maintenance",
+        "ideas"
+      ]
+    },
+    {
+      "login": "DNLHC",
+      "name": "Danila",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/14959483?v=4",
+      "profile": "https://github.com/DNLHC",
+      "contributions": [
+        "code",
+        "design",
+        "maintenance"
+      ]
+    },
+    {
+      "login": "meilinz",
+      "name": "Meilin Zhan",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/13786673?v=4",
+      "profile": "http://www.meilinzhan.com/",
+      "contributions": [
+        "code",
+        "ideas",
+        "maintenance"
+      ]
+    },
+    {
+      "login": "lcgforever",
+      "name": "lcgforever",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/5697293?v=4",
+      "profile": "http://www.linkedin.com/in/liuchenguang",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "passerbyid",
+      "name": "Yuer Lee",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/2075566?v=4",
+      "profile": "https://github.com/passerbyid",
+      "contributions": [
+        "doc",
+        "platform"
+      ]
+    },
+    {
+      "login": "YYSU",
+      "name": "Su,Yen-Yun",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/12994810?v=4",
+      "profile": "http://yysu.github.io/About-me",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "cixuuz",
+      "name": "Chen Tong",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/26782336?v=4",
+      "profile": "https://cixuuz.github.io/",
+      "contributions": [
+        "code",
+        "ideas",
+        "maintenance"
+      ]
+    },
+    {
+      "login": "Gisonrg",
+      "name": "Jason Jiang",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/4332224?v=4",
+      "profile": "https://github.com/Gisonrg",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "popey",
+      "name": "Alan Pope",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1841272?v=4",
+      "profile": "http://popey.com/",
+      "contributions": [
+        "platform"
+      ]
+    },
+    {
+      "login": "tonyxu-io",
+      "name": "Tony Xu",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/6280136?v=4",
+      "profile": "https://tonyxu.io",
+      "contributions": [
+        "platform"
+      ]
+    },
+    {
+      "login": "rawrmonstar",
+      "name": "Tegan Churchill",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/13814048?v=4",
+      "profile": "https://tegan.lol",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "AngieW0908",
+      "name": "Angie Wang",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/26016229?v=4",
+      "profile": "https://github.com/AngieW0908",
+      "contributions": [
+        "design"
+      ]
+    },
+    {
+      "login": "baybatu",
+      "name": "Batuhan Bayrakci",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/965804?v=4",
+      "profile": "http://batuhanbayrakci.com",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "samuelmeuli",
+      "name": "Samuel Meuli",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/22477950?v=4",
+      "profile": "https://samuelmeuli.com",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "alexandreamadocastro",
+      "name": "Alexandre Amado de Castro",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/5918765?v=4",
+      "profile": "https://www.linkedin.com/in/alexandreamadocastro",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "abnersajr",
+      "name": "Abner Soares Alves Junior",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1998649?v=4",
+      "profile": "http://abner.space/",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "seancheung",
+      "name": "Sean",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5442563?v=4",
+      "profile": "http://seanz.me",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "moia-sven-ole",
+      "name": "Ole",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/32508538?v=4",
+      "profile": "https://github.com/moia-sven-ole",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "GabrielNicolasAvellaneda",
+      "name": "Gabriel Nicolas Avellaneda",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1248101?v=4",
+      "profile": "https://www.linkedin.com/in/GabrielNicolasAvellaneda/",
+      "contributions": [
+        "code",
+        "doc"
+      ]
+    },
+    {
+      "login": "dideler",
+      "name": "Dennis Ideler",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/497458?v=4",
+      "profile": "https://dideler.github.io",
+      "contributions": [
+        "code",
+        "ideas",
+        "doc"
+      ]
+    },
+    {
+      "login": "anthonyattard",
+      "name": "Anthony Attard",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/8838135?v=4",
+      "profile": "http://AnthonyAttard.com",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "ArLEquiN64",
+      "name": "ArLE",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/7821318?v=4",
+      "profile": "https://ArLEquiN64.github.io/",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "polnetwork",
+      "name": "Pol Maresma",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/639877?v=4",
+      "profile": "http://www.polnetwork.com",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "PMExtra",
+      "name": "PM Extra",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11289158?v=4",
+      "profile": "https://blog.jubeat.net",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "EdZava",
+      "name": "Zava",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1155199?v=4",
+      "profile": "https://zava.carrd.co/",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "sunnysidesounds",
+      "name": "Jason R Alexander",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1030838?v=4",
+      "profile": "http://www.linkedin.com/in/jasonralexander",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "Sebastian-Hojas",
+      "name": "Sebastian Hojas",
+      "avatar_url": "https://avatars.githubusercontent.com/u/279378?v=4",
+      "profile": "http://irrelevant.at",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "yuhang-dong",
+      "name": "董雨航",
+      "avatar_url": "https://avatars.githubusercontent.com/u/20642641?v=4",
+      "profile": "https://github.com/yuhang-dong",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "sxyazi",
+      "name": "sxyazi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/17523360?v=4",
+      "profile": "https://sxyz.blog",
+      "contributions": [
+        "platform"
+      ]
+    },
+    {
+      "login": "ProfessorManhattan",
+      "name": "Brian Zalewski",
+      "avatar_url": "https://avatars.githubusercontent.com/u/59970525?v=4",
+      "profile": "https://megabyte.space",
+      "contributions": [
+        "platform"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "Lepton",
+  "projectOwner": "hackjutsu",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true,
+  "commitType": "docs",
+  "commitConvention": "angular"
+}

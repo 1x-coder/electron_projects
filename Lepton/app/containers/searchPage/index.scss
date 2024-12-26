@@ -1,0 +1,136 @@
+.search-modal {
+
+  .font-style-base {
+    font-family: -apple-system, BlinkMacSystemFont, Segoe WPC, Segoe UI, Ubuntu, Droid Sans, sans-serif;
+    font-size: 13px;
+  }
+
+  .search-box {
+    @extend .font-style-base;
+    font-size: 16px;
+    width: 100%;
+    padding: 10px;
+    border: 0;
+    background: var(--bg-primary);
+  }
+
+  .search-box:focus {
+    outline:none;
+  }
+
+  .result-group {
+    max-height: 70vh;
+    list-style-type: none;
+    padding: 0px;
+    overflow: auto;
+  }
+
+  .search-result-item {
+    padding: 10px 10px;
+    border-top: solid 1px var(--border-color);
+  }
+
+  .search-result-item:hover {
+    background: rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+  }
+
+  .search-result-item-selected {
+     @extend .search-result-item;
+     background: rgba(0, 0, 0, 0.15);
+  }
+
+  .list-group {
+    margin-bottom: 0px;
+  }
+
+  .list-group-item {
+    border-left: 0;
+    border-right: 0;
+  }
+
+  .list-group-item:first-child {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+  }
+
+  .list-group-item:last-child {
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+
+  .snippet-description {
+    @extend .font-style-base;
+  }
+
+  .not-found-msg {
+    @extend .font-style-base;
+    font-size: 15px;
+    padding: 10px;
+    color: var(--text-secondary);
+  }
+
+  .gist-tag-group {
+    margin-top: 10px;
+  }
+
+  .gist-tag {
+    display: inline;
+    margin-right: 10px;
+    font-size: 11px;
+    color: #4078C0;
+  }
+
+  .gist-tag-selected {
+    @extend .gist-tag;
+    border:solid 2px red;
+  }
+
+  .modal-button-base {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 100%;
+  }
+
+  .modal {
+    -webkit-user-select: none;
+    -webkit-app-region: drag;
+    background: rgba(0, 0, 0, 0.5);
+  }
+
+  .modal-content {
+    margin-top: 100px;
+  }
+
+  .tip {
+    @extend .font-style-base;
+    margin-top: -27px;
+    margin-bottom: 10px;
+    width: 100%;
+    text-align: right;
+    font-size: 10px;
+    color: var(--text-secondary);
+    font-style: italic;
+  }
+
+  .title-section {
+    @extend .font-style-base;
+    // font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .description-section {
+    @extend .font-style-base;
+    font-size: 12px;
+    color: var(--text-secondary);
+  }
+
+  .custom-tags-section {
+    @extend .font-style-base;
+    color: var(--text-secondary);
+    font-size: 10px;
+    margin-left: 2px;
+    margin-top: 3px;
+  }
+}

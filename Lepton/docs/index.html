@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Lepton - A Lean Snippet Manager powered by GitHub Gist</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Theme CSS -->
+    <link href="css/freelancer.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- Place this tag in your head or just before your close body tag. -->
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-92052347-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-92052347-1');
+    </script>
+</head>
+
+<body id="page-top" class="index">
+
+    <!-- Navigation -->
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand" href="#page-top">Lepton</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#portfolio">Feature</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#faq">FAQ</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="https://github.com/hackjutsu/Lepton">GitHub</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Header -->
+    <header class='header-container'>
+        <img class="img-hidden" src="img/new_logo2.png" alt="">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <img class="img-responsive screenshot-logo" src="img/portfolio/stay_organized.png" alt="">
+                    <div class="intro-text">
+                        <span class="name">Lepton</span>
+                        <div class="skills typewriter">A Lean <b>Snippet Manager</b>:)</div>
+                        <div>powered by GitHub Gist</div>
+                        </br>
+                        <img class="img-logo" src="img/new_logo2.png" alt="">
+                        <div class="col-lg-8 col-lg-offset-2 text-center">
+                            <a href="https://github.com/hackjutsu/Lepton/releases" class="btn btn-lg btn-outline">
+                                <i class="fa fa-download"></i> Download
+                            </a>
+                            <div class="platforms"> #macOS / #Win / #Linux</div>
+                            <br/>
+                            <a class="twitter-share-button" href="https://twitter.com/intent/tweet?hashtags=snippet,codesnippet,snippetmanager,lepton,leptonapp,github,opensource,developer,code" data-size="large">Tweet</a>
+                            <a class="github-button" href="https://github.com/hackjutsu/Lepton" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star hackjutsu/Lepton on GitHub">Star</a>
+                            <a class="github-button" href="https://github.com/hackjutsu/Lepton/issues" data-size="large" data-show-count="true" aria-label="Issue hackjutsu/Lepton on GitHub">Issue</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Portfolio Grid Section -->
+    <section id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Feature</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-3 portfolio-item">
+                    <a href="#portfolio-modal-orgainize" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <center>
+                           <img src="img/portfolio/stay_organized.png" class="img-responsive" alt="">
+                           <span class="feature-title">Stay Organized</span>
+                        </center>
+                    </a>
+                </div>
+                <div class="col-sm-3 portfolio-item">
+                    <a href="#portfolio-modal-theme" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <center>
+                           <img src="img/portfolio/lepton-dark-small.png" class="img-responsive" alt="">
+                           <span class="feature-title">Dark Theme</span>
+                        </center>
+                    </a>
+                </div>
+                <div class="col-sm-3 portfolio-item">
+                    <a href="#portfolio-modal-markdown" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <center>
+                           <img src="img/portfolio/markdown.png" class="img-responsive" alt="">
+                           <span class="feature-title">Markdown</span>
+                        </center>
+                    </a>
+                </div>
+                <div class="col-sm-3 portfolio-item">
+                    <a href="#portfolio-modal-jupyter" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <center>
+                           <img src="img/portfolio/jupyterNotebook.png" class="img-responsive" alt="">
+                           <span class="feature-title">Jupyter Notebook</span>
+                        </center>
+                    </a>
+                </div>
+                <div class="col-sm-3 portfolio-item">
+                    <a href="#portfolio-modal-search" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <center>
+                           <img src="img/portfolio/search_bar.png" class="img-responsive" alt="">
+                           <span class="feature-title">Search (⇧ + Space)</span>
+                        </center>
+                    </a>
+                </div>
+                <div class="col-sm-3 portfolio-item">
+                    <a href="#portfolio-modal-tag" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <center>
+                           <img src="img/portfolio/edit.png" class="img-responsive" alt="">
+                           <span class="feature-title">Custom Tags</span>
+                        </center>
+                    </a>
+                </div>
+                <!-- <div class="col-sm-3 portfolio-item">
+                    <a href="#portfolio-modal-immersive" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <center>
+                           <img src="img/portfolio/immersive.png" class="img-responsive" alt="">
+                           <span class="feature-title">Immersive Mode (Cmd/Ctrl + i)</span>
+                        </center>
+                    </a>
+                </div> -->
+                <div class="col-sm-3 portfolio-item">
+                    <a href="#portfolio-modal-dashboard" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <center>
+                           <img src="img/portfolio/dashboard.png" class="img-responsive" alt="">
+                           <span class="feature-title">Dashboard (Cmd/Ctrl + d)</span>
+                        </center>
+                    </a>
+                </div>
+                <div class="col-sm-3 portfolio-item">
+                    <a href="#portfolio-modal-login" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <center>
+                           <img src="img/portfolio/lepton_logins.png" class="img-responsive" alt="">
+                           <span class="feature-title">GitHub Login (credentials / token)</span>
+                        </center>
+                    </a>
+                </div>
+            </div>
+            <a class="faq-link" href="https://github.com/hackjutsu/Lepton#features" target="_blank"><u>Check out the full list of features.</u></a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="success" id="faq">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center faq-section">
+                    <h2>FAQ</h2>
+                    <!-- <hr class="star-light"> -->
+                </div>
+            </div>
+            <div class="row faq-content">
+                <ul>
+                    <li class='faq-item'>
+                        <div class="faq-question">Is Lepton free?</div>
+                        <div class="faq-answer">
+                            Lepton is an open source project on GitHub. It's FREE and we DON'T accept donations. If you like, feel free to donate to <a class="faq-link" href="https://donate.wikimedia.org/wiki/Ways_to_Give">Wikimedia Foundation</a>, which helps sustain free knowledge through Wikipedia and its sister projects for people around the world.
+                        </div>
+                    </li>
+                    <li class='faq-item'>
+                        <div class="faq-question">Why is the language of my gist "Other"?</div>
+                        <div class="faq-answer">
+                            Lepton replies on GitHub APIs to detect the language. To overwrite the result, put <code>"// vim: syntax=&ltyour_language&gt"</code> at the beginning of the gist.
+                            <div class="github-snippet">
+                                <script src="https://gist.github.com/hackjutsu/288bbaaf821851df0ded368cf36e3104.js"></script>
+                            </div>
+                        </div>
+                    </li>
+                    <li class='faq-item'>
+                        <div class="faq-question">How to specify the title and tags?</div>
+                        <div class="faq-answer">
+                            Follow the format <code>[title] description #tag1 #tag2</code> in the description field.
+                            <center>
+                                <div class="faq-img">
+                                    <img class="img-responsive img-centered" src="./img/formatted_description2.png"/>
+                                </div>
+                                <div class="faq-img">
+                                    <img class="img-responsive img-centered" src="./img/formatted_description.png"/>
+                                </div>
+                            <center/>
+                        </div>
+                    </li>
+                    <li class='faq-item'>
+                        <div class="faq-question">What did others say about Lepton?</div>
+                        <div class="faq-answer">
+                            <center>
+                                <blockquote class="twitter-tweet" data-theme="light"><p lang="en" dir="ltr">Lepton is a beautiful open source snippet manager for <a href="https://twitter.com/hashtag/ubuntu?src=hash&amp;ref_src=twsrc%5Etfw">#ubuntu</a>. Manage your Github gists with support for tags, search and sharing. Lepton features a rich-text editor and markdown viewer. Try the snap today!<br><br>snap install lepton<a href="https://t.co/O9kkIwcBhs">https://t.co/O9kkIwcBhs</a> <a href="https://t.co/I6A48ZRvuD">pic.twitter.com/I6A48ZRvuD</a></p>&mdash; Ubuntu (@ubuntu) <a href="https://twitter.com/ubuntu/status/1034877112229015553?ref_src=twsrc%5Etfw">August 29, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                            </center>
+                        </div>
+                    </li>
+                    <li class='faq-item'>
+                        <div class="faq-question">More questions?</div>
+                        <div class="faq-answer">
+                            <a class="faq-link" href="https://github.com/hackjutsu/Lepton/wiki/FAQ" target="_blank">Check out the wiki page.</a>
+                        </div>
+                    </li>
+                </ul>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center">
+        <!-- <div class="footer-above">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col col-md-4">
+                        <h3>Around the Web</h3>
+                        <ul class="list-inline">
+
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/hackjutsu/Lepton" class="btn-social btn-outline"><i class="fa fa-fw fa-github"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+        <div class="footer-below">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        Copyright &copy; Lepton 2017-present
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+    <div class="scroll-top page-scroll hidden-sm hidden-xs hidden-lg hidden-md">
+        <a class="btn btn-primary" href="#page-top">
+            <i class="fa fa-chevron-up"></i>
+        </a>
+    </div>
+
+    <!-- Portfolio Modals -->
+    <div class="portfolio-modal modal fade" id="portfolio-modal-orgainize" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-lg-offset-0">
+                        <div class="modal-body">
+                            <h2>Stay Organized</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/stay_organized.png" class="img-responsive img-centered" alt="">
+                            <p>
+                                Lepton provides a formatted description section with title and tags support.
+                            </p>
+                            <div class="faq-note">
+                                You can group your gists based on their <b>languages</b> and <b>custom tags</b>.
+                            </div>
+                            <br/>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolio-modal-markdown" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-lg-offset-0">
+                        <div class="modal-body">
+                            <h2>Markdown Rendering</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/markdown.png" class="img-responsive img-centered" alt="">
+                            <p>Letpon supports Markdown rendering</p>
+                            <div class="faq-note">
+                                As a bonus, you can use Lepton for markdown note taking and access it everywhere.
+                            </div>
+                            <br/>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolio-modal-search" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-lg-offset-0">
+                        <div class="modal-body">
+                            <h2>Instant Search</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/search_bar.png" class="img-responsive img-centered" alt="">
+                            <p>
+                                Instant search for your gists!
+                            </p>
+                            <div class="faq-note">
+                                ⇧ + Space
+                            </div>
+                            <br/>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolio-modal-tag" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-lg-offset-0">
+                        <div class="modal-body">
+                            <h2>Custom Tags</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/edit.png" class="img-responsive img-centered" alt="">
+                            <p>Tag your gists with unlimited #tags!</p>
+                            <br/>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolio-modal-immersive" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-lg-offset-0">
+                        <div class="modal-body">
+                            <h2>Immersive Mode</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/immersive.png" class="img-responsive img-centered" alt="">
+                            <p>Get focused!</p>
+                            <div class="faq-note">
+                                Cmd/Ctrl + i
+                            </div>
+                            <br/>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolio-modal-dashboard" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-lg-offset-0">
+                        <div class="modal-body">
+                            <h2>Dashboard</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/dashboard.png" class="img-responsive img-centered" alt="">
+                            <p>Discover your potential!</p>
+                            <div class="faq-note">
+                                Cmd/Ctrl + d
+                            </div>
+                            <br/>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolio-modal-theme" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-lg-offset-0">
+                        <div class="modal-body">
+                            <h2>Dark Theme</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/lepton-dark-small.png" class="img-responsive img-centered" alt="">
+                            <p>May the <b>Dark</b> Force be with you!</p>
+                            <div class="faq-note">
+                            </div>
+                            <br/>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolio-modal-login" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-lg-offset-0">
+                        <div class="modal-body">
+                            <h2>GitHub Login</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/lepton_logins.png" class="img-responsive img-centered" alt="">
+                            <p>Credentials or token, whichever you like!</p>
+                            <div class="faq-note">
+                                A token is an alternative to the credentials to access your GitHub account.
+                            </div>
+                            <br/>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolio-modal-jupyter" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-lg-offset-0">
+                        <div class="modal-body">
+                            <h2>Jupyter Notebook</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/jupyterNotebook.png" class="img-responsive img-centered" alt="">
+                            <p>Lepton supports Jupyter notebook rendering as well</p>
+                            <div class="faq-note">
+                                We love data science!
+                            </div>
+                            <br/>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="js/freelancer.min.js"></script>
+
+</body>
+
+</html>

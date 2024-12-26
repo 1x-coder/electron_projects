@@ -1,0 +1,78 @@
+{
+  "name": "password-generator-app",
+  "version": "1.0.3",
+  "description": "Awesome Password generator app, built with Electron and React.",
+  "license": "MIT",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alexdevero/password-generator.git"
+  },
+  "homepage": "https://github.com/alexdevero/password-generator#readme",
+  "bugs": {
+    "url": "https://github.com/alexdevero/password-generator/issues"
+  },
+  "author": {
+    "name": "Alex Devero",
+    "email": "deveroalex@gmail.com",
+    "url": "https://alexdevero.com/"
+  },
+  "contributors": [
+    {
+      "name": "",
+      "email": "",
+      "url": ""
+    }
+  ],
+  "keywords": [
+    "app",
+    "electron",
+    "electron-app",
+    "generator",
+    "javascript",
+    "open",
+    "open-source",
+    "password",
+    "react",
+    "reactjs",
+    "source",
+    "tool"
+  ],
+  "engines": {
+    "node": ">=9.x",
+    "npm": ">=5.x",
+    "yarn": ">=1.x.x"
+  },
+  "main": "main.js",
+  "scripts": {
+    "build": "cross-env NODE_ENV=production webpack --config webpack.build.config.js --mode production",
+    "package:all": "npm run build && electron-packager ./ --out=./builds --overwrite --platform=all",
+    "package:linux": "npm run build && electron-packager ./ --out=./builds --overwrite --platform=linux",
+    "package:macappstore": "npm run build && electron-packager ./ --out=./builds --overwrite --platform=mas",
+    "package:osx": "npm run build && electron-packager ./ --out=./builds --overwrite --platform=darwin",
+    "package:win": "npm run build && electron-packager ./ --out=./builds --overwrite --platform=win32",
+    "preview": "cross-env NODE_ENV=production webpack --config webpack.build.config.js --mode production && electron --noDevServer .",
+    "start": "cross-env NODE_ENV=development webpack-dev-server --hot --host 0.0.0.0 --config=./webpack.dev.config.js --mode development"
+  },
+  "dependencies": {
+    "electron": "^31.4.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.3.1",
+    "styled-components": "^6.1.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babili-webpack-plugin": "^0.1.2",
+    "cross-env": "^7.0.3",
+    "electron-packager": "^17.1.1",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "file-loader": "^1.1.11",
+    "html-webpack-plugin": "^5.6.0",
+    "webpack": "^4.12.1",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.13.1"
+  }
+}

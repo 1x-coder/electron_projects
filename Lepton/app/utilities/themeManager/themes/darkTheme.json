@@ -1,0 +1,16 @@
+{
+    "bg-primary": "rgb(50, 50, 50)",
+    "bg-secondary": "rgb(46, 46, 46)",
+    "border-color": "#3a3b41",
+    "text-primary": "#d6d8db",
+    "text-secondary": "#a3a4a8",
+    "text-secondary-darken": "#9a9ca2",
+    "text-invert": "#2a2a2a",
+    "text-code-block": "rgba(171, 178, 190, 1)",
+    "accent-success": "#000",
+    "accent-warning": "#000",
+    "accent-regular": "#ececec",
+    "shadow-color": "rgba(0, 0, 0, 0.55)",
+    "modal-close-button": "white",
+    "md-inline-code-background": "dimgray"
+}

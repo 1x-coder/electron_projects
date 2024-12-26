@@ -1,0 +1,65 @@
+html,
+body {
+	  height: 100%;
+      //padding-top: 50px;
+      display: -ms-flexbox;
+      display: -webkit-box;
+      display: flex;
+      -ms-flex-align: center;
+      -ms-flex-pack: center;
+      -webkit-box-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      justify-content: center;
+      /* padding-top: 40px;
+      padding-bottom: 40px; */
+    }
+    .starter-template {
+      padding: 24px 15px;
+      text-align: center;
+    }
+    .panel {
+      width: 400px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    #btn-sound {
+      margin-right: 1rem;
+    }
+    #clock {
+      margin-bottom: 0;
+    }
+    .clockface{
+      font-size: 22vw;
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+
+	.shadow-lg {
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
+	}
+	.shadow-m{
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+	}
+	@media only screen and (device-aspect-ratio: 4/3){
+		.clockface{
+			font-size: 30vw;
+		}
+	}
+
+	@include media-breakpoint-up(sm) {
+	  .clockface {
+		font-size: 1.2rem;
+	  }
+	}
+
+	@include media-breakpoint-up(md) {
+	  .clockface {
+		font-size: 1.4rem;
+	  }
+	}
+
+	@include media-breakpoint-up(lg) {
+	  .clockface {
+		font-size: 1.6rem;
+	  }
+	}
